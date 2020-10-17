@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Safash Ltd - HMRC Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">     
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"></a>
+    <a href="https://www.gov.uk/government/organisations/hm-revenue-customs/" target="_blank">           
+           <img src="clients/hmrc.jfif" alt="HMRC" style="width:5%">
+        </a>
+   <a href="http://www.safashlimited.com" class="w3-bar-item w3-button w3-hide-small w3-hover-white" style="float:right">Home</a>
+   <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white" onclick="document.getElementById('BusinessCase').style.display='block'">Business Case</a>      
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white" onclick="document.getElementById('SoW').style.display='block'">Statement of Work</a>  
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white" onclick="document.getElementById('C&R').style.display='block'">Contacts & References</a>  
+  </div>
+</div>
+
+<!-- Business Case Pop-Up Box  -->
+<div id="BusinessCase" class="w3-modal">
+  <div class="w3-modal-content">
+    <header class="w3-container w3-teal">
+      <span onclick="document.getElementById('BusinessCase').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <h2>Business Case</h2>    
+    </header>
+    <div class="w3-container">
+      <p>HM Revenue & Customs (HMRC) intiated a programme to replace its existing customs system, CHIEF (Customs Handling of Import and Export Freight), with a new Customs 
+        Declaration Service (CDS). HMRC is changing its customs system to comply with legislative requirements that were established before the UK voted to leave the European 
+        Union (EU). The new system will be an integral part of the UK’s overall customs regime. The UK collects around £34 billion annually from customs and excise duties and 
+        value added tax (VAT) on transactions at the border. In 2017, around £820 billion of goods crossed the border. It is vital to the UK’s economy and consumers that trade 
+        continues to operate smoothly across the border, for example by maintaining the trade flow of perishables such as food products.<br>
+        The UK’s decision to leave the EU and the customs union has important implications for the CDS programme. Depending on the outcome of EU exit negotiations, 
+        from March 2019 at least 145,000 traders who currently import or export goods solely within the EU might be required to make customs declarations for the first time;
+        and the number of customs declarations could increase from around 55 million to around 255 million each year.</p>
+        <a href="https://www.peoplesource.co.uk/" target="_blank">People Source Consulting</a> have been engaged by HMRC to deliver the Customs
+        Declaration Service (CDS) integration layer for HMRC Enterprise Integration Services (EIS). The HMRC Chief Digital and Information Office (CDIO) and EIS are
+        responsible for all of HMRCs core Integration services that deal with over a billion internal and external transactions every year; connecting 100s of HMRC services,
+        developed in a wide variety of technologies.<br>
+        EIS provides a fundamental framework for delivering Application Programming Interface (API) access to HMRC core systems and enabling their digital agenda, API strategy and transformation
+        roadmaps for all their services. They are utilising modern open source products and working in agile methodologies and approaches to deliver flexible costeffective 
+        integration solutions.
+        <p>CDS is a key transformation programme and all of the key integration with other HMG systems will be carried out as part of this delivery. The following 
+           Projects are in scope for delivery:</p>       
+        <li>Borders & Non-Borders Systems</li>
+        <li>CDS Finance</li>
+        <li>CDS Imports</li>
+        <li>CDS Exports</li>
+        <li>CDS Tariff & Quota</li>
+        <li>CDS Trader Test</li>
+        <li>CDS Performance</li>
+        <li>CDS Northern Ireland Protocol</li>
+        <li>WAF 2.0</li>   
+    </div>
+  </div>  
+</div>
+
+<!-- SoW Pop-Up Box  -->
+<div id="SoW" class="w3-modal">
+  <div class="w3-modal-content">
+    <header class="w3-container w3-teal">
+      <span onclick="document.getElementById('SoW').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <h2>Statement of Work</h2>    
+    </header>
+    <div class="w3-container">
+      <p>The Consultancy will deliver Technical Business Analysis & Product deliverables of those outlined below relating to the end-to-end delivery of CDS on behalf of the Company. </p>
+      <h4>New Project/Program</h4>
+      <li>Deliver architectural and system requirement documentation based on collaboration with programme/project teams and other suppliers
+        involved to articulate requirement and approach.</li>
+      <li>Deliver initial analysis and architectural review products of all solution design documentation.</li>  
+      <li>Deliver Proof of Concepts for complex APIs if appropriate and agreed.</li>
+      <li>Deliver Impact Responses that detail plan & cost for agreement to the level possible dependant on the information provided.</li>
+      <h4>Development Phase</h4>
+      <li>Deliver Impact Assessments using the agreed backend specification and then produce specifications for the frontend systems.</li>
+      <li>Deliver API/Journey as per agreed patterns or agree alternatives where necessary.</li>
+      <li>Develop APIs/Journeys using test driven development and automated testing as agreed to ensure quality assurance.</li>
+      <li>Development will be done using continuous development/continuous Integration (CD/CI) where appropriate and agreed.</li>
+      <li>Provide Documentation for API Specification, High level design, Low level design & Test specifications on Confluence or tooling agreed by all parties. </li>
+      <h4>Integration & Test Phase</h4>
+      <li>Deliver Integration testing deliverables associated with frontend and backend system.</li>
+      <li>Deliver functional and non-functional testing products.</li>
+      <li>Provide fixes for various programme/project level defects based on priority and severity.</li>
+      <li>Liaise with all other system teams to capture impacts, risks and issues.</li>
+      <li>Deliver or align to agreed test strategy if available and agreed.</li>
+      <h4>Hand over to service</h4>
+      <li>Deliver release products to enable APIs to be released to production/live, based on programme/project end-to-end testing agreement.</li>
+      <li>Deliver APIs/Journeys interface specifications and release notes for all production deployments to Service teams.</li>
+      <li>Deliver the service transition products.</li>
+      <li>Deliver the documentation for the CDS service manual and runbooks.</li>
+      <h4>Delivery Standard/Quality Assurance</h4>
+      <li>Deliver and deploy high-quality code that meets the requirements within the agreed constraints of project delivery.</li>
+      <li>Deliver supporting documentation of project actuals where possible and appropriate (days against impact provided) highlighting any
+           overspend or underspend.</li>
+      <p>Work Packages containing the detail will be agreed by the Specialists on an ongoing basis and approved by the parties once complete.</p>
+    </div>
+  </div>  
+</div>
+
+<!-- Contacts & References Pop-Up Box  -->
+<div id="C&R" class="w3-modal">
+  <div class="w3-modal-content">
+    <header class="w3-container w3-teal">
+      <span onclick="document.getElementById('C&R').style.display='none'"
+      class="w3-button w3-display-topright">&times;</span>
+      <h2>Contacts & References</h2>    
+    </header>
+    <div class="w3-container">
+      <h3>People Source Consulting</h3>
+      <h5><a href="https://www.peoplesource.co.uk/meet-the-team/35/" target="blank">Rob Wright</a></h5>
+      <b>Recruitment Director</b><br>
+      eMail: robwright@peoplesource.co.uk<br>
+      Phone: +44 117 922 7000
+      <h5> <a href="https://www.peoplesource.co.uk/meet-the-team/tom-robinson/" target="blank">Tom Robinson</a></h5>
+      <b>Principal Consultant</b><br>
+      eMail: tomosrobinson@peoplesource.co.uk<br>
+      Phone: +44 117 922 7000
+      <h3>HMRC</h3>
+      <p><i>"Very professional BA worked for me during a critical project for HMRC. technical and understands what he's looking for, 
+             very good communication skills. would work with him again."</i><br>
+             <b>Darrel Halfyard </b>Delivery Manager</p>
+    </div>
+  </div>  
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3.close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large">
+    <i class="fa fa-remove"></i>
+  </a>amazon
+  
+  <h4 class="w3-bar-item"><b>EIS Architecture</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('overview').style.display='block'" href="#overview">Overview</a>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('patterns').style.display='block'" href="#patterns">Patterns</a> 
+  <h4 class="w3-bar-item"><b>Programmes & Projects</b></h4>  
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('parcels').style.display='block'" href="#parcels">BSP Small Parcels</a>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('passengers').style.display='block'" href="#passengers">BSP Passengers</a>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('finance').style.display='block'" href="#finance">CDS Finance</a>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('impex').style.display='block'" href="#impex">CDS Imports/Exports</a>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('tariffandquota').style.display='block'" href="#tariffandquota">CDS Tariff & Quota</a>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('test').style.display='block'" href="#test">Trader Test & Performance</a>
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('nip').style.display='block'" href="#nip">Northern Ireland Protocol</a>  
+  <a class="w3-bar-item w3-button w3-hover-black" onclick="document.getElementById('cma').style.display='block'" href="#cma">Platform Migration</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<!-- MAIN CONTENT: Architecture Overview -->
+<div id="overview" class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">EIS Architecture Overview</h1>
+      <h3>Summary</h3>
+      <p>EIS is part of Enterprise Platform Services, cross-cutting horizontal organizations and responsible for building and supporting <b>Secure Integration</b> between HMRC's 
+        internal systems and external entities, including other Govenment Departments. EIS is also responsible for on-boarding and managing relationships with 3rd parties (including 
+        commercial SW), utilising HMRC's external facing APIs for integration. EIS enables the collection of all revenue and customs income. Hundreds of billions of pounds worth of 
+        transactions traverse integration services per year.</p>         
+      <p>The logical components within the system are:
+      <li><b>Multi-Channel Digital Tax Platform (MDTP):</b> A digital platform with a common infrastructure that links existing and new systems to provide
+        consistent and responsive services.</li>    
+      <li><b>Perimeter Proxy + WAF (Nginx):</b> BIG IP Firewall system. The Web Application Firewall (or WAF) filters, monitors, and controls HTTP traffic
+          to and from the MDTP. This system maps the service endpoints between the Front-end client system and the CDS. </li>
+      <li><b>API Gateway (WSo2 APIM): </b> This is the internal firewall system in CDS. This authenticates and authorises all the RESTful requests based
+        on OAUTH tokens.</li>  
+      <li><b>API Key Manager: </b> Stores the OAUTH token keys of all the MDG services. This information is used by the MDTP to access the API
+        services.</li>
+      <li><b>Internal Proxy (Nginx): </b>This is the load balancer of the Enterprise Service Bus (ESB). This sytem manages the worker nodes. </li>
+      <li><b>Enterprise Service Bus (ESB): </b> This is a WSO2 engine that enables communication between the front-end and back-end services through
+        mediation, transformation and messaging. All the the API/ Proxy services are deployed here to facilitate the communication. </li>
+      <li><b>AV Service:</b> Provides Anti-virus service for the API Gateway.</li>
+      <li><b>Transform and Validate Service: </b>This system validates Front-end system requests with respect to the Front-end schema, transforms the
+        requests and then validates it with respect to the Back-end schema. Likewise, it will also validate-transform-validate the back-end response.</li>
+      <li><b>JMS Service: </b> A point-to-point model that maintains queues of incoming messages for interaction with queue based Back-end system. </li>
+      <li><b>AMQP Service (RabbitMQ): </b>The system routes, buffers and persist the messages according to the specified rules. Used when the Back-end
+          is a RabbitMQ based system. </li>
+      <li><b>File Transfer Subnet: </b> File transfer system containing file transfer agents and managers to facilitate automated processing and transfer of
+        files from the Application Buckets and MDG CDS Buckets.</li>
+      </p>
+    <h3>Deployment Process</h3>
+      <p>Single release branches are deployed to environments controlled by Jenkins. The release branch only contains the changes for the specific feature allowing 
+         multiple releases in a day to support business needs. The release branch will progress through the environment and have been deployed multiple times before 
+         deployment in production. The delpoyment process is as follows:
+         <li>Developers commit the code to Apache Subversion.</li>
+         <li>Building and deploying in Dev and CI environments: BOM code submission in SVN triggers autoseed job on Jenkins. The autoseed job creates the pipeline.</li>
+         <li>The executable artifacts built by the pipeline jobs is pushed to NEXUS on FAST-P. Also the pipeline jobs deploy the executable on the corresponding environments 
+             such as DEV, CI or NFR.</li>
+          <li>The executable artefacts built by the pipeline jobs are also be saved in Artifactory.</li>
+          <li>After a successful execution of a pipeline and if the journey is ready to be deployed to higher environments a release Jenkins job is
+            executed to generate a release branch in GitLab. This release branch is used for deployment in higher environments.</li>
+          <li>GITLab and Artifactory are provisioned and maintained in CDG's ALM VPC. The deployment artefacts and configuration for
+            non-production and production environments are picked up from Artefactory and GitLab respectively. When the Ansible is executed
+            it picks the executable from Artifactory and deploys in relevant environment.</li>
+          <li>The Ansible configuration in GitLab that gets executed during journey deployments will pickup executable artefacts from Artefactory
+            for productions and all integration test environments.</li>
+          <li>EIS are required to follow a change request process. Also the backend endpoints are provided by CDOS team via Ansible programme_vars.</li>
+          <li>To test EIS intefaces in DEV, CI and NFR where a backend is not available, a backend mock server that holds the backend mock
+            responses is used in End-to-End testing.</li>
+          <li>Kafka and the ELK stack are used for centralised log management of application logs and generated journey stream events. Sensu
+            is used to monitor system metrics and service availability.</li>
+          <li>Nginx Plus provides WAF capability and routing for external requests originating from Digital frontend applications incoming in to
+            prod and non-prod VPCs. Network connectivity and access is managed using a combination of host based firewalls (IP Tables)
+            and AWS security groups.</li>
+          <li>Access to APIs exposed externally is provided via the gateway component of WSO2 API Manager. WSO2 API gateway requires
+            OAUTH tokens for access.</li>
+          <li>DevOps team develop Terraform for infrastructure provisioning.</li>
+          <li>Ansible is used for configuration management. GITLab on CDG ALM VPC is used as a code repository.</li>
+        </p> 
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="hmrc/as-is.png" alt="As-Is" width="280" height="300" onclick="document.getElementById('as-is').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/design.png" alt="Design" width="280" height="300" onclick="document.getElementById('design').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/current.png" alt="Current" width="280" height="300" onclick="document.getElementById('current').style.display='block'" class="w3-hover-opacity">
+      </p>  
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+        <img src="hmrc/security.png" alt="Security" width="280" height="300" onclick="document.getElementById('security').style.display='block'" class="w3-hover-opacity">
+     </p>
+   </div>
+  </div>  
+
+  <!-- Expand Images - Overview -->
+  <div id="as-is" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/as-is.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div>  
+  <div id="design" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/design.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+  <div id="current" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/current.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+  <div id="security" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/security.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+  
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+
+
+<!-- MAIN CONTENT: Integration Patterns -->
+<div id="patterns" class="w3-main" style="display: none; margin-left:250px">
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Integration Patterns</h1>
+      <h3>1. External Digital to Internal Systems  Messaging Pattern</h3>
+      <p>EIS follows a specific pattern when implementing messaging patterns for external digital based systems. Generally the externatal system will be a web based digital
+         aplication which will call an EIS public API interface. The process will follow the following steps:<br>
+        <li>External web based application will send an JSON/XML based HTTP request.</li>
+        <li>The request will be channelled through the WS02 API gateway - which will perform the required Authentication and Authorisation checks
+         as well as route the request to the appropriate back-end service/s.</li>
+         <li>The next phase will be the external facing Data Tier, which houses a message adapter that will accept the message and invoke the required service/s.</li>
+         <li>Nginx will provide load balancing capabilities and WAF security.</li>
+         <li>The Corporate Tier will house the Assets Microservices that will perform the necessary validations and request transformation.</li>
+         <li>Message will be sent to the back-end HoD systems.</li>
+      </p>
+      <h3>2. Message Queue Pattern</h3>
+      <p>EIS implements different Queueing technologies like Rabbit MQ, IBM MQ and JMS, depending on the specific requirements of the journey. Queues are 
+        required in order to implement message persistence or guaranteed messages delivery. <br>
+        When a message has been published to a queue, the receiving client will subscribe to the queue in a pre-determioned schedule in order to poll for the 
+        specific request payload. The assets microservice will perform the usual schema avalidations, etc. prior to posting the message to the queue. <br>
+        Generally a queue based message pattern is Asynchronous and will be required to ensure that the message is received by the end receiving system. Therefore, if the receiving system is not available,
+        there will be a pre-configured number of retries over a set period of time to ensure message persistence.
+      </p>      
+      <h3>3. Back-Front Systems Message Pattern</h3>
+      <p>EIS will also cater to messaging from internal Head of Duty (HoD) systems to external systems. Thes epatterns are basically the reverse of pattern 1, and will 
+        follow similar architecture and protocols. The key things to consider are;</p>
+        <li>Validation and transformation of messages via in-built microservices that reside in the assets repository.</li>
+        <li>Ensuring that the message reaches the right end-clients via secure end-points.</li>
+        <li>HTTPS connectivity with external clients, to ensure that the transport of information is done n a secure manner.</li>
+      <h3>4. Internal Systems Messaging Pattern</h3>          
+      <p>This pattern caters to the process of routing and managing messages internally. EIS manages the internal messaging between different systems in the HMRC estate. 
+        This includes various HMRC systems as well as systems belonging to Other Government Departments (OGDs). 
+        These messages will not be required to be routed through an API gateway, as the components are within the secured zone (corporate tier).<br>
+        Generally most OGDs follow the same Architectural principles and Protocols when it comes to messaging (i.e. SOAP), therefore the transformation of messages 
+        are rarely necessary. However, some file transer patterns may require adherence to uniform formats.
+      </p>
+      <h3>5. File Transfer Patterns</h3>          
+      <p>EIS implements several patterns that cater to file transfer between external-interal, internal-external and internal-internal systems. These journeys pre-dominantly 
+        encompass legacy systems and protocols that have been established for a long time. Therefore, any file transfer jurneys that arr required to transfer either from or to
+        these legacy systems will be required to adhere to these protocols. The following specific patterns are implemented:<br>        
+        <p class="w3-text-teal"><b>AWS External Party to AWS EIS using JobScheduler</b>
+        <p><b>Process Steps</b></p>
+        <li>An HTTPS 'Ready for Transport' call will be received from the source system, with which a JobScheduler Order will be created. This will in turn instantiate the
+            appropriate JobScheduler Job Instance. All external synchronous HTTPS requests will be routed through an AWS hosted WAF to the correct end-point by an API GW</li>
+        <li>The JS Job Instance will pull the file from an external location using FTPS / HTTPS into the EIS DT Virus Scanning server's local file system.</li>
+        <li>A Virus Scan will ve excuted on the inbound file, and if a virus has been detected, the inbound fie will be deleted from the local file system and the
+            journey will be terminated as an Error.</li>
+        <li>If a virus is not detected, the file will be moved to the external facing S3 bucket /from folder (clean area) for this specific journey.</li>
+        <li>The JS Agent in the AWS EIS CT tier will connect to the external facing EIS S3 Bucket and pull the file into the internal EIS S3 Bucket.</li>
+        <li>The JS Agent in the AWS EIS CT tier will then make an XML over HTTPS service call to the destination system/application informing them that the file is ready for
+            consumption. The job instance will then terminate successfully.</li>
+        <li>The destination system/application may also poll it's S3 Bucket folders in order to detect when a file is ready for processing. In this scenario, the JS will not 
+            send any notification. </li>
+        <li>The destination system/application will consume the file and then remove it from the EIS internal S3 bucket.</li>
+        <li>When terminating an instance, the JS will tidy up any files generated during the process, leaving only a copy of the file in the EIS Internal S3 Bucket. This is required
+            as a backup in case of a failure in the file transfer process.</li>
+        <li>A JS Housekeeping job will be run after a configured amount of time, to archive and delete the internal S3 bucket files. Ideally the destination system/application 
+            must remove the file from the internal S3 bucket.</li>
+      </p>
+      <p><b>Alternative Steps</b></p>
+        <li>If the file is received from a trusted source (usually an internal source), then the virus scanning step may not be required.</li>
+        <li>Additional steps to Encode, Decode, Encrypt, Decrypt, etc. can be added to the JS jobchain.</li>
+        <li>If the file transfer occurs between two legacy systems and no AWS S3 Buckets are present, the the transfer pattern will be limited to legacy system servers 
+            like FTP/SFTP/FTPS/UTM/etc.</li>
+      <p class="w3-text-teal"><b>Metadata File</b> 
+       <p>It is expected that a Metadata file will always be present with each file that needs transferring. A Metadata file is Mandatory in all applicable file transfer patterns.
+          If the source system/application does not provide a Metadata file, EIS will generate it's own.</p>
+    </div>     
+        
+        
+        
+  <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="hmrc/extint.png" alt="Future State" width="280" height="300" onclick="document.getElementById('extint').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/fronttoqueue.png" alt="Web Portals" width="280" height="300" onclick="document.getElementById('fronttoqueue').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/backtofrontapi.png" alt="Web Portals" width="280" height="300" onclick="document.getElementById('backtofrontapi').style.display='block'" class="w3-hover-opacity">
+      </p>            
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/internalapi.png" alt="Web Portals" width="280" height="300" onclick="document.getElementById('internalapi').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/s3filetrnsfr.png" alt="Web Portals" width="280" height="300" onclick="document.getElementById('s3filetrnsfr').style.display='block'" class="w3-hover-opacity">
+      </p> 
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="extint" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/extint.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+  <div id="fronttoqueue" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/fronttoqueue.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+  <div id="backtofrontapi" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+      <img class="w3-modal-content" src="hmrc/backtofrontapi.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div>   
+  <div id="internalapi" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/internalapi.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+  <div id="s3filetrnsfr" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/s3filetrnsfr.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- MAIN CONTENT: Parcels -->
+<div id="parcels" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">BSP Small Parcels</h1>
+      <h3>Summary</h3>
+      <p></p>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>          
+      <p></p>
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="hmrc/Future State.jpg" alt="Future State" width="280" height="300" onclick="document.getElementById('FS').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/Target.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Target').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/Presentation.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Presentation').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="FS" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/Future State.jpg" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- MAIN CONTENT: Passengers -->
+<div id="passengers" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">BSP Passengers</h1>
+      <h3>Summary</h3>
+      <p></p>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>          
+      <p></p>
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="hmrc/Future State.jpg" alt="Future State" width="280" height="300" onclick="document.getElementById('FS').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/Target.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Target').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/Presentation.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Presentation').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="FS" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="HMRC/Future State.jpg" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+ </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- MAIN CONTENT: Finance -->
+<div id="finance" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">CDS Finance</h1>
+      <h3>Summary</h3>
+      <p></p>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>          
+      <p></p>
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="hmrc/Future State.jpg" alt="Future State" width="280" height="300" onclick="document.getElementById('FS').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/Target.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Target').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/Presentation.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Presentation').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="FS" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="HMRC/Future State.jpg" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+ </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- MAIN CONTENT: Imports/Exports -->
+<div id="impex" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">CDS Imports Exports</h1>
+      <h3>Summary</h3>
+      <p></p>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>          
+      <p></p>
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="HMRC/Future State.jpg" alt="Future State" width="280" height="300" onclick="document.getElementById('FS').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Target.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Target').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Presentation.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Presentation').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="FS" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="HMRC/Future State.jpg" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+ </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- MAIN CONTENT: Tariff & Quota -->
+<div id="tariffandquota" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">CDS Tariff and Quota</h1>
+      <h3>Summary</h3>
+      <p></p>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>          
+      <p></p>
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="HMRC/Future State.jpg" alt="Future State" width="280" height="300" onclick="document.getElementById('FS').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Target.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Target').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Presentation.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Presentation').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="FS" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="HMRC/Future State.jpg" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+ </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+
+<!-- MAIN CONTENT: Test & Performance -->
+<div id="test" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Test & Performance</h1>
+      <h3>Summary</h3>
+      <p></p>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>          
+      <p></p>
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="HMRC/Future State.jpg" alt="Future State" width="280" height="300" onclick="document.getElementById('FS').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Target.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Target').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Presentation.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Presentation').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="FS" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="HMRC/Future State.jpg" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+ </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- MAIN CONTENT: NIP -->
+<div id="nip" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Northern Ireland Protocol</h1>
+      <h3>Summary</h3>
+      <p></p>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>          
+      <p></p>
+    </div>
+
+    <!--Images-->
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="HMRC/Future State.jpg" alt="Future State" width="280" height="300" onclick="document.getElementById('FS').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Target.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Target').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="Equifax/Presentation.jpg" alt="Web Portals" width="280" height="300" onclick="document.getElementById('Presentation').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images 01-->
+  <div id="FS" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="HMRC/Future State.jpg" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+ </div>  
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+
+
+
+<!-- MAIN CONTENT: Platform Migration -->
+<div id="cma" class="w3-main" style="display: none; margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Platform Migration</h1>
+      <h3>Summary</h3>
+      <p>A decision was made to migrate the existing HMRC EIS Systems and Technology from it's old monolithic form to a more modern architecture.The objective 
+        was for EIS to safely exposes HMRC's organisational capabilities as highly cohesive, loosely coupled services using securely orchestrated microservices. Key challenges are to
+        implement API and File Transfer solutions that work alongside and in time, replace existing monolithic systems and processes. This will be achieved by imeplmenting 
+        in-house built Microservices based technology. 
+      </p>
+     <h3>Integration Framework</h3>
+     <p>Multiple IF implementations were required to cater to EU Exit and niche project requirements. This resulted in multiple installations of AWS to support. Each with many environments,
+       different maturity, different tooling and supported by different teams. This meant that frameworks were tightly coupled to specific projects. Therefore, a new IF has 
+       been adopted, based on the following technologies;<br>
+       
+       <p class="w3-text-teal"><b>Design & Development Tooling</b>
+         <li><b>Collaboration Tools: </b>Confluence, JIRA, Sharepoint</li>
+         <li><b>Developer Environment: </b>D4D</li>
+       <p class="w3-text-teal"><b>SW Delivery Automation</b>
+          <li><b>Source Code & Asset Management: </b>Gitlab, Artifactory</li>
+          <li><b>Build & Test: </b>Jenkins, SonarQube</li>
+          <li><b>Deployment: </b>Jenkins</li>
+       <p class="w3-text-teal"><b>Application Connectivity</b>
+          <li><b>Adapters: </b>SpringBoot/Camel, RabbitMQ</li>
+          <li><b>Gateway: </b><u>Ext:</u> Kong CE, <u>Int:</u> Kong CE</li>
+       <p class="w3-text-teal"><b>Integration Flow</b>
+         <li><b>Orchestration: </b>Camel (IF Core), Rabbit (IF Core)</li>
+         <li><b>Bulk Data & File Transfer: </b>File Transfer Service, Job Scheduler</li>
+         <li><b>Flow & Data Services: </b>XSLT Transformation, Payload Validation</li>
+       <p class="w3-text-teal"><b>Service Operations</b>
+         <li><b>Monitoring & Support: </b>EFK (Elasticsearch, Fluentd and Kibana), Grafana, Prometheus</li>
+         <li><b>Service Operations: </b>Dashboard</li>
+         <li><b>Reporting: </b>Alerting</li>
+       <p class="w3-text-teal"><b>Security</b>
+         <li><b>Security Services: </b>Vault, AV, OSSEC HIDS, Active Dir., WAF</li>
+         <li><b>Security Management: </b>Vaultmore, IAM</li>
+       <p class="w3-text-teal"><b>Infrastructure Platform</b>
+         <li><b>Cloud Infrastructure Service: </b>Cloud Foundation Services, Enterprise Container Platform</li>
+       <p class="w3-text-teal"><b>API Catalog</b>
+          <p>An API Calatog will be built, housing all the APIs that are required for EIS. The catalog will be accessible to authorised external/internal parties who will 
+             select an API based on specific requirements. Highly cohesive and available, APIs can be used and re-used via a simple 'plug-and-play' method.
+          </p>
+     </p>       
+    </div>
+   
+     <!--Images-->
+     <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-medium w3-padding-44 w3-center">
+        <img src="hmrc/futurestate.png" alt="Future State" width="280" height="300" onclick="document.getElementById('fs').style.display='block'" class="w3-hover-opacity">
+      </p>     
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/int.png" alt="Web Portals" width="280" height="300" onclick="document.getElementById('int').style.display='block'" class="w3-hover-opacity">
+      </p>       
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">
+         <img src="hmrc/apicat.png" alt="Web Portals" width="280" height="300" onclick="document.getElementById('apicat').style.display='block'" class="w3-hover-opacity">
+      </p>  
+   </div>
+  </div>  
+
+  <!-- Expand Images - Overview -->
+  <div id="fs" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/futurestate.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div>  
+  <div id="int" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/int.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+  <div id="apicat" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+    <img class="w3-modal-content" src="hmrc/apicat.png" style="display: block;" "margin-left: auto;" "margin-right: auto;">
+  </div> 
+
+  <!--Footer-->
+  <footer>
+    <div class="w3-container w3-theme-l1">
+      <p style="text-align:center; font-family:courier;">Safash Ltd. 2020</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- End of main content pages -->
+
+
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
